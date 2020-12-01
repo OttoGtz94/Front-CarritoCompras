@@ -1,0 +1,54 @@
+header {
+  background-color: rgba($color: #6dd5ed, $alpha: 0.5);
+  /* padding: 15px; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .titulos {
+    padding: 10px;
+    width: 70%;
+    h1 {
+        color: #6dd5ed;
+        font-weight: 400;
+        font-size: 70px;
+        text-shadow: 3px 3px 3px #152a2f;
+    }
+    h2 {
+        color: #6dd5ed;
+        text-shadow: 3px 3px 10px #152a2f;
+    }
+  }
+  .iconoCarro {
+    /* background-color: green; */
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-left: 1px solid #fff;
+    span {
+      /* display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center; */
+      i {
+        font-size: 35px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 50%;
+        color: #fff;
+        cursor: pointer;
+        background-color: rgba($color: #000, $alpha: 0.1);
+        transition: ease-in-out 0.5s;
+        &:hover {
+            border-color: #d5ed6d;
+            background-color: rgba($color: #000, $alpha: 0.5);
+            color: #6dd5ed;
+        }
+      }
+    }
+    .contenidoCarro {
+      display: none;
+    }
+  }
+}
